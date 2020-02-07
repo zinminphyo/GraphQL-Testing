@@ -16,7 +16,6 @@
 		B061DA6F23EC7BEF0071F059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B061DA6D23EC7BEF0071F059 /* LaunchScreen.storyboard */; };
 		B061DA7723EC7DDB0071F059 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = B061DA7623EC7DDB0071F059 /* schema.json */; };
 		F456220723ED1B3600DC8559 /* heros.graphql in Resources */ = {isa = PBXBuildFile; fileRef = F456220623ED1B3600DC8559 /* heros.graphql */; };
-		F456220923ED1B7C00DC8559 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F456220823ED1B7C00DC8559 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +32,6 @@
 		B061DA7623EC7DDB0071F059 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
 		D28586BE313765E462FC7C6F /* Pods-GraphQLAgainTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GraphQLAgainTesting.release.xcconfig"; path = "Target Support Files/Pods-GraphQLAgainTesting/Pods-GraphQLAgainTesting.release.xcconfig"; sourceTree = "<group>"; };
 		F456220623ED1B3600DC8559 /* heros.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = heros.graphql; sourceTree = "<group>"; };
-		F456220823ED1B7C00DC8559 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +67,6 @@
 		B061DA6123EC7BED0071F059 /* GraphQLAgainTesting */ = {
 			isa = PBXGroup;
 			children = (
-				F456220823ED1B7C00DC8559 /* API.swift */,
 				F456220523ED1AFD00DC8559 /* queries */,
 				B061DA7623EC7DDB0071F059 /* schema.json */,
 				B061DA6223EC7BED0071F059 /* AppDelegate.swift */,
@@ -246,7 +243,6 @@
 			files = (
 				B061DA6723EC7BED0071F059 /* ViewController.swift in Sources */,
 				B061DA6323EC7BED0071F059 /* AppDelegate.swift in Sources */,
-				F456220923ED1B7C00DC8559 /* API.swift in Sources */,
 				B061DA6523EC7BED0071F059 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
